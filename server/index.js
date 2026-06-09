@@ -17,9 +17,13 @@ app.get("/", (req, res) => {
 
 const userRoutes = require("./routes/userRoutes");
 const bookingRoutes = require("./routes/bookingRoutes");
- 
+const transportRoutes = require("./routes/transportRoutes");
+const adminRoutes = require("./routes/adminRoutes");
+
 app.use("/api/users", userRoutes);
 app.use("/api/bookings", bookingRoutes);
+app.use("/api/transports", transportRoutes);
+app.use("/api/admin", adminRoutes);
 
 // Port
 const PORT = process.env.PORT || 5000;
