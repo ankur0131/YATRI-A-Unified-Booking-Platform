@@ -1,0 +1,36 @@
+.login-container {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.login-box button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+}
