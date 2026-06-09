@@ -136,4 +136,8 @@ YATRI/
 
 ## License
 
+<<<<<<< HEAD
 This project is licensed under the ISC License.
+=======
+This project is licensed under the ISC License.
+>>>>>>> 26e025049cbdcdb84554bc9f96cb4bf094ccadc9
